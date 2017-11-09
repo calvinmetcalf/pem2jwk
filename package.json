@@ -1,0 +1,15 @@
+{
+  "name": "pem2jwk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "elliptic": "^6.4.0",
+    "parse-asn1": "^5.1.0"
+  }
+}
