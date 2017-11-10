@@ -15,7 +15,7 @@ module.exports = pem2jwk;
 function pem2jwk(pem) {
   const out = parseASN1(pem);
   if (out.type === 'dsa') {
-    return;
+    throw new Error('dsa keys not supported');
   }
   if (out.type === 'rsa' || out.modulus) {
     return handleRSA(out)

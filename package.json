@@ -11,5 +11,9 @@
   "dependencies": {
     "elliptic": "^6.4.0",
     "parse-asn1": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:calvinmetcalf/pem2jwk.git"
   }
 }
