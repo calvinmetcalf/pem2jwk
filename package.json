@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "elliptic": "^6.4.0",
-    "parse-asn1": "^5.1.0"
+    "parse-asn1": "^5.1.0",
+    "safe-buffer": "^5.1.2"
   },
   "repository": {
     "type": "git",

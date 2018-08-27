@@ -1,9 +1,10 @@
 const parseASN1 = require('parse-asn1')
 const curves = require('./curves')
+const Buffer = require('safe-buffer').Buffer
 var EC = require('elliptic').ec
 
 function encode(buf) {
-  var str = buf.toArray().toString('base64');
+  var str = Buffer.from(buf.toArray()).toString('base64');
   while (str[str.length - 1] === '=') {
     str = str.slice(0, -1);
   }
